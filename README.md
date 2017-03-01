@@ -6,3 +6,4 @@ This is the code **windows8.** theme for tumblr. / Это код темы **wind
 <br><br>
 Credits / Авторы: [Random Color Script](http://timinglthemewindows8.tumblr.com/)
 <br><br>
+![screenshot](https://raw.githubusercontent.com/timingl/timinglthemewindows8/master/prev.jpg)
