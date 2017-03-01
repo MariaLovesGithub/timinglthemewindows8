@@ -1,0 +1,227 @@
+<html><head> 
+<script type="text/javascript" src="http://static.tumblr.com/qvf0co1/hg9om1z3d/randomcolor.js"></script>
+<script> //Generate random color for posts. Original script https://randomcolor.llllll.li
+// Это скрипт генерирующий цвет постов. Cкрипт создан Девидом Марфелдом, Вы можете посмотреть инструкцию по настройке скрипта на его сайте https://randomcolor.llllll.li
+function ready(){
+ [].forEach.call( document.querySelectorAll('.mainpost'), function(el) {
+        el.style.backgroundColor = randomColor({luminosity: 'dark', seed: '56' });
+ });
+}
+document.addEventListener("DOMContentLoaded", ready);
+</script>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}" />
+<meta name="description" content="{MetaDescription}" />
+<style>
+@font-face {font-family: 'bookman'; src: url('http://nomail.com.ua/files/eot/a2ad419cbc4f489bc5caa1ef90e0df53.eot?#iefix') format('embedded-opentype'), url('http://nomail.com.ua/files/woff/a2ad419cbc4f489bc5caa1ef90e0df53.woff') format('woff'), url('http://nomail.com.ua/files/woff2/a2ad419cbc4f489bc5caa1ef90e0df53.woff2') format('woff2');}
+body {margin:0;text-align:left;font:14px apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;color:#fff;font-weight:100;background:url(http://static.tumblr.com/qvf0co1/QAzom0exi/0_110485_2d262cf9_orig_1_.jpg) top center fixed;}
+a{text-decoration:none;color:#fff;cursor:pointer;}
+.apost{font-weight:900;}
+p{text-indent:1.5em; margin:5px 0 5px 0;}
+b, strong{font: 18px 'bookman';}
+.ribbon{height:1px;width:100%;}
+#main{width:1223px;height:100%;margin:23px auto 0 auto;padding:0;top:0;box-sizing:border-box;}
+#maintop{width:1222px;height:60px;display:inline-block;float:left;margin:0;box-sizing:border-box;}
+#top{height:60px;width:1222px;position:fixed;margin:0 auto;padding:0;background:rgba(0,0,0,.3);text-align:left;line-height:60px;}
+#mainleft{width:221px;height:100%;display:inline-block;float:left;margin:0;box-sizing:border-box;}
+#sidebar{width:221px;height:100%;position:fixed;margin:0;background:rgba(0,0,0,.3);}
+#mainright{width:1002px;min-height:540px;display:inline-block;margin:0;box-sizing:border-box;float:right;}
+
+.atop{display:inline-block;height:60px;padding:0 12px;margin:0;color:#fff;}
+.atop:hover, .atop:active, .atop:focus{background-color:rgba(255,255,255,0.3);}
+h1, .title{display:inline-block;float:left;margin:0 50px;font: 35px 'bookman'; color:#fff;line-height:60px;}
+.search{width:310px;height:60px;box-sizing:border-box;display:inline-block;float:right;padding-top:16px;margin:0 10px; 0 0}
+input[type=text]{height:28px;width:250px;box-sizing:border-box;display:inline-block;float:right;border:0;background:rgba(255,255,255,0.3);margin:0;font:14px apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;color:#fff;}
+input[type=text]:focus{outline:none;}
+input[type=submit]{width:60px;height:28px;box-sizing:border-box;display:inline-block;float:left;margin:0;background:rgba(255,255,255,0);border:0;font:14px apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;color:#fff;}
+
+.smenu{width:109px;height:109px;box-sizing:border-box;background: url(http://static.tumblr.com/qvf0co1/ogkom1lej/tumblr_post_icons_small.png) no-repeat 0 0 rgba(255,255,255,0.3);display:block;float:left;margin:0 0 1px 1px;color:#fff;text-transform:lowercase;padding:88px 0 0 6px;}
+
+.smenu:hover{box-shadow:inset 0 0 0 2px rgba(255,255,255,0.3);}
+.stext{background-position: 20px 25px;}
+.simg{background-position: -56px 25px;}
+.squote{background-position: -132px 23px;}
+.surl{background-position: -207px 23px;}
+.saudio{background-position: -358px 23px;}
+.svideo{background-position: -431px 23px;}
+.schat{background-position: -280px 23px;}
+.sgif{background-position: -518px 23px;}
+
+.paginat{width:219px;height:28px;display:block;text-align:center;float:left;margin:0 0 0 1px;background:rgba(255,255,255,0.3);text-transform:lowercase;}
+.next{float:right;height:28px;box-sizing:border-box;color:#fff;display:inline-block;line-height:28px;padding:0 10px;}
+.prev{float:left;height:28px;box-sizing:border-box;color:#fff;display:inline-block;line-height:28px;padding:0 10px;}
+
+.mainpost{width:500px;min-height:210px;height:100%;margin:0 1px 1px 0;box-sizing:border-box;display:block;background:rgba(0,0,0,0.3);padding:10px;cursor:default;}
+.mainpost:nth-child(odd){float:left;}
+.mainpost:nth-child(even){float:right;}
+.titlep{font: 35px 'bookman';vertical-align:top;}
+.captionp{padding:10px;text-align:left;}
+.answer_form_container{width:430px;margin:0;}
+.mainpost ul{list-style:none;margin:0;padding:0;}
+.mainpost li{margin:5px 0;}
+.mainpost>a, .mainpost>p>a, .mainpost>div>p>a{font-size: 14px;font-weight:900;}
+blockquote>img, blockquote>p>img, blockquote>div>p>img, .mainpost>img, .mainpost>p>img, .mainpost>div>p>img{display:block;max-width:460px;margin:0 auto;}
+{font-size: 14px;font-weight:900;}
+
+::-webkit-scrollbar{width:8px;height:8px;}
+::-webkit-scrollbar-button{width:0px;height:0px;}
+::-webkit-scrollbar-thumb{background:rgba(0,0,0,0.3);}
+::-webkit-scrollbar-corner{background:rgba(255,255,255,0);}
+::-webkit-scrollbar-track{background: #114C92;}
+</style>
+</head>
+<body>
+
+<div id="main">
+
+<div id="maintop">
+<div id="top">
+<a href="/" class="title">{Title}</a>
+<a href="/" class="atop">{lang:Home}</a>
+<a href="/random" class="atop">{lang:Random post}</a> 
+<a href="/archive" class="atop">{lang:Archive}</a>
+<a href="/rss" class="atop">{lang:RSS}</a>
+<a href="/tagged/ask" class="atop">Ask</a>
+<div class="search"><form action="/search" method="get"><input type="text" name="q" onclick="this.className='onclick'" value=""><input type="submit" value="{lang:Search}:"></form></div>
+</div>
+</div>
+
+
+<div id="mainleft">
+<div id="sidebar" >
+<a href="/tagged/text"><div class="smenu stext">{lang:Text}</div></a>
+<a href="/tagged/image"><div class="smenu simg">{lang:Photo}</div></a>
+<a href="/tagged/quote"><div class="smenu squote">{lang:Quote}</div></a>
+<a href="/tagged/url"><div class="smenu surl">{lang:Link}</div></a>
+<a href="/tagged/music"><div class="smenu saudio">{lang:Audio}</div></a>
+<a href="/tagged/video"><div class="smenu svideo">{lang:Video}</div></a>
+<a href="/tagged/chat"><div class="smenu schat">{lang:Chat}</div></a>
+<a href="/tagged/gif"><div class="smenu sgif">gif</div></a>
+
+<div class="paginat">
+{block:Pagination}
+{block:PreviousPage}<a href="{PreviousPage}" class="prev">◄</a>{/block:PreviousPage}
+{block:NextPage}<a href="{NextPage}" class="next"> ►</a>{/block:NextPage}
+{/block:Pagination}
+</div>
+
+
+</div>
+</div>
+
+
+
+<div id="mainright">
+
+{block:Posts inlineMediaWidth="480" inlineNestedMediaWidth="460"}
+
+{block:Text}
+<div class="mainpost">
+<a href="{Permalink}">{block:Title}<div class="titlep">{Title}</div>{/block:Title}</a>
+<br>{Body}
+</div>
+{/block:Text}
+
+
+{block:Photo}
+<div class="mainpost" style="text-align:center;padding:20px 0 0 0;">
+<a href="{PhotoURL-HighRes}" target="_blank"><img src="{PhotoURL-500}"></a>
+<div class="captionp" onclick="location.href='{Permalink}'">{block:Caption} {Caption}&nbsp;{/block:Caption}</div>
+</div>
+{/block:Photo}
+
+
+{block:Photoset}
+<div class="mainpost" style="text-align:center;padding:20px 0 0 0;">
+{block:Photos}
+<a href="{PhotoURL-HighRes}" target="_blank"><img src="{PhotoURL-250}"
+width="244" style="margin:0;paddig:0;" /></a>
+{/block:Photos}
+<div class="captionp" onclick="location.href='{Permalink}'">
+{block:Caption}{Caption}&nbsp;{/block:Caption} 
+</div></div>
+{/block:Photoset}
+
+
+
+{block:Quote}
+<div class="mainpost">
+<div class="titlep" onclick="location.href='{Permalink}'">❝{Quote}❞
+<br></div>
+{block:Source}<h1>{Source}</h1>{/block:Source}
+</div>
+{/block:Quote}
+
+
+{block:Link}
+<div class="mainpost">
+<div class="titlep"><a href="{URL}" {Target}>{Name}</a></div>
+<div class="captionp" onclick="location.href='{Permalink}'">{block:Excerpt}{Excerpt}{/block:Excerpt}
+{block:Description}{Description}{/block:Description}</div>
+</div>
+{/block:Link}
+
+
+{block:Video}
+<div class="mainpost" style="padding:20px 0 0 0;">
+{VideoEmbed-500}
+<div class="captionp" onclick="location.href='{Permalink}'">{block:Caption} {Caption}&nbsp;{/block:Caption}</div>
+</div>
+{/block:Video}
+
+
+{block:Chat}
+<div class="mainpost" onclick="location.href='{Permalink}'">
+{block:Title}<div class="titlep">{Title}</div><br>{/block:Title}
+<ul>{block:Lines}
+<li class="{Alt}">{block:Label}<b>&nbsp;&nbsp;{Label}&nbsp;</b>{/block:Label}{Line}</li>
+{/block:Lines}</ul></div>
+{/block:Chat} 
+
+
+{block:Answer}
+<div class="mainpost" onclick="location.href='{Permalink}'">
+<img src="{AskerPortraitURL-16}" align="left" hspace="5px" />{lang:Asker asked 2}:
+<br><br>
+<a style="cursor:default;">{Question}</a>
+<br><br>
+{block:Answerer}
+<img src="{AnswererPortraitURL-16}" align="left" hspace="5px">{Answerer}
+<br><br>
+{Answer}
+{/block:Answerer}
+{Replies}
+</div>
+{/block:Answer}
+
+
+{block:Audio}
+<div class="mainpost" style="padding:20px 0 0 0;">
+{block:AudioEmbed}{AudioEmbed color="black"}{/block:AudioEmbed}
+<div class="captionp" onclick="location.href='{Permalink}'">{block:Caption}{Caption}{/block:Caption}</div>
+</div>
+{/block:Audio}
+
+
+{block:PermalinkPage}
+<div class="mainpost">
+{block:HasTags}{block:Tags}
+<a href="{TagURL}" style="font-weight:100;">#{Tag}</a> 
+{/block:Tags}{/block:HasTags}
+{block:ContentSource}{lang:Source}: <a href="{SourceURL}" target="_blank"> {block:SourceLogo}<img src="{BlackLogoURL}" width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}{block:NoSourceLogo} {SourceTitle}{/block:NoSourceLogo}</a>{/block:ContentSource}
+<br>
+<br>{lang:This was posted TimeAgo}
+<br>{lang:Likes}: <a href="{Permalink}">{NoteCount}</a>
+<br>{PostNotes}
+{block:RebloggedFrom}<br>Reblogged From: <a href="{ReblogParentURL}">{ReblogParentName}</a>{/block:RebloggedFrom}
+</div>
+{/block:PermalinkPage}
+
+
+{/block:Posts}
+
+</div>
+</div>
+
+</body></html>
