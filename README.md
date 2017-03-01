@@ -1,5 +1,5 @@
 ###windows8.
-This is the code **windows8.** theme for tumblr. / Это код темы **windows8.** для tumblr.
+This is the code **windows8.** theme for tumblr. / Это код темы **windows8.** для tumblr. Чтобы установить тему полностью скопируйте код из файла theme.html и замените им код в вашем редакторе темы на tumblr.
 <br><br>
 Рreview / Предпросмотр: [Here](http://timinglthemewindows8.tumblr.com/)
 <br><br>
