@@ -3,7 +3,7 @@ This is the code of **windows8.** theme for tumblr. / Это код темы **w
 <br><br>
 Рreview / Предпросмотр: [Here](http://timinglthemewindows8.tumblr.com/)
 <br><br>
-Credits / Авторы: [Random Color Script](http://timinglthemewindows8.tumblr.com/)
+Credits / Авторы: [Random Color Script](http://timinglthemewindows8.tumblr.com/) [Bookman Old Style Bold Font](https://www.fonts.com/font/monotype/bookman-old-style/bold) 
 <br><br>
 ![screenshot](https://raw.githubusercontent.com/timingl/timinglthemewindows8/master/prev.jpg)
 <br><br><br><br>
