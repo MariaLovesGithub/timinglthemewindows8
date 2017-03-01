@@ -9,7 +9,7 @@ Credits / Авторы: [Random Color Script](http://timinglthemewindows8.tumblr
 <br><br><br><br>
 ###Немного информации по поводу редактирования темы по вашему вкусу
 
-Фоновое изображение можно сменить через редактирование темы на tumblr. Для этого найдите в коде такую строку и замените <http://static.tumblr.com/qvf0co1/QAzom0exi/0_110485_2d262cf9_orig_1_.jpg> на ссылку фоновое изображение на свою.
+Фоновое изображение можно сменить через редактирование темы на tumblr. Для этого найдите в коде такую строку и замените <http://static.tumblr.com/qvf0co1/QAzom0exi/0_110485_2d262cf9_orig_1_.jpg> на ссылку своего изображения.
 ```html
 body {margin:0;text-align:left;font:14px apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;color:#fff;font-weight:100;background:url(http://static.tumblr.com/qvf0co1/QAzom0exi/0_110485_2d262cf9_orig_1_.jpg) top center fixed;}
 ```
