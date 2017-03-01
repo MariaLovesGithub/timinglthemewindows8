@@ -7,7 +7,7 @@ Credits / Авторы: [Random Color Script](http://timinglthemewindows8.tumblr
 <br><br>
 ![screenshot](https://raw.githubusercontent.com/timingl/timinglthemewindows8/master/prev.jpg)
 <br><br><br><br>
-###Немного информации по поводу изменения темы по вашему вкусу
+###Немного информации по поводу редактирования темы по вашему вкусу
 
 Фоновое изображение можно сменить через редактирование темы на tumblr. Для этого найдите в коде такую строку и замените ссылку на фоновое изображение на свою.
 ```html
@@ -15,5 +15,7 @@ body {margin:0;text-align:left;font:14px apple-system,BlinkMacSystemFont,Roboto,
 ```
 <br><br>
 Чтобы убрать покраску постов в рандомные цвета удалите скрипты, т.е. все теги &lt;script&gt;&lt;/script&gt; и всё что находится между ними. 
-<br><br>Чтобы изменить покраску отредактируйте скрипт по инструкциям описанным [здесь](http://timinglthemewindows8.tumblr.com/) или спросите меня. Хоть я и не являюсь автором этого скрипта, но на простые вопросы смогу ответить.
-<br><br><br><br>
+<br><br>Чтобы изменить покраску отредактируйте скрипт по инструкциям описанным [здесь](http://timinglthemewindows8.tumblr.com/) или спросите у [меня](http://timinglthemewindows8.tumblr.com/ask). Хоть я и не являюсь автором этого скрипта, но на простые вопросы смогу ответить.
+<br><br>
+Чтобы изменить [favicon](https://ru.wikipedia.org/wiki/Favicon) замените {Favicon} на ссылку на Ваше изображение.
+<br><br>
